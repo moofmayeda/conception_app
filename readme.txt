@@ -1,0 +1,1 @@
+This is a program that estimates the conception date when given a date of delivery. It also incorporates any information about whether the birth was earlier or later than expected. Program developed by Moof Mayeda (moofmayeda@yahoo.com) for Epicodus.
