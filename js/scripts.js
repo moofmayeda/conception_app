@@ -1,4 +1,4 @@
-var var conceptionDate = function(date, early, late) {
+var conceptionDate = function(date, early, late) {
 	var birthday = new Date(date);
 	var birthdayDate = birthday.getDate();
 	var pregnancyLength = 268 + late*7 - early*7;
