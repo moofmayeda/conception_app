@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/jquery-1.11.1.js"></script>
+	<script src="js/scripts.js"></script>
+	<title>Conception Date</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Estimate the date you were conceived</h1>
+		<form>
+			<div class="form-group">
+				<label for="birthday-input">Birthday</label>
+				<input id="birthday-month" placeholder="MM">
+				<input id="birthday-date" placeholder="DD">
+				<input id="birthday-year" placeholder="YYYY">
+			</div>
+			<div class="form-group">
+				<label for="early-birth">Number of weeks you were early (if known)</label>
+				<input id="early-birth" placeholder="0">
+			</div>
+			<div class="form-group">
+				<label for="late-birth">Number of weeks you were late (if known)</label>
+				<input id="late-birth" placeholder="0">
+			</div>
+			<button class="btn" type="submit">Calculate</button>
+		</form>
+		<div id="results">
+			<h5>Your estimated date of conception is <span id="conception-date"></span>.</h5>
+		</div>
+	</div>
+</body>
+</html>
